@@ -1,10 +1,1 @@
-2024-04-22 19:52:27.171 [main] INFO  com._98labs.exercises.sockets.PoemClient - Enter the line number (Enter '00' to exit):
-2024-04-22 19:52:29.802 [main] INFO  com._98labs.exercises.sockets.PoemClient - Response from server: 
-2024-04-22 19:52:29.804 [main] INFO  com._98labs.exercises.sockets.PoemClient - Line 1 : Still I Rise
-2024-04-22 19:52:29.804 [main] INFO  com._98labs.exercises.sockets.PoemClient - Enter the line number (Enter '00' to exit):
-2024-04-22 19:52:40.922 [main] INFO  com._98labs.exercises.sockets.PoemClient - Response from server: 
-2024-04-22 19:52:40.923 [main] INFO  com._98labs.exercises.sockets.PoemClient - Line 2 : BY MAYA ANGELOU
-2024-04-22 19:52:40.923 [main] INFO  com._98labs.exercises.sockets.PoemClient - Enter the line number (Enter '00' to exit):
-2024-04-22 19:52:50.744 [main] INFO  com._98labs.exercises.sockets.PoemClient - Response from server: 
-2024-04-22 19:52:50.745 [main] INFO  com._98labs.exercises.sockets.PoemClient - Line a : Send only Integer Number
-2024-04-22 19:52:50.745 [main] INFO  com._98labs.exercises.sockets.PoemClient - Enter the line number (Enter '00' to exit):
+2024-04-23 23:15:43.940 [main] ERROR com._98labs.exercises.sockets.Client - Connection refused: connect
