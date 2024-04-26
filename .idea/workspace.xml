@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b09f308c-4b67-4df7-ad88-fcec816ea1ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/_98labs/exercises/sockets/ClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/_98labs/exercises/sockets/ClientConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/_98labs/exercises/sockets/ClientConnectionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/all.log" beforeDir="false" afterPath="$PROJECT_DIR$/all.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/_98labs/exercises/sockets/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/_98labs/exercises/sockets/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/_98labs/exercises/sockets/PoemClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/_98labs/exercises/sockets/ClientTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -40,6 +40,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Client.executor": "Run",
+    "JUnit.ClientConnectionTest.executor": "Run",
     "JUnit.ClientTest.executor": "Run",
     "JUnit.ClientTest.testClient.executor": "Run",
     "JUnit.ClientTest.testClientInputOutput.executor": "Run",
@@ -64,7 +65,50 @@
       <recent name="com._98labs.exercises.sockets" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ClientTest.testClientInputOutput">
+  <component name="RunManager">
+    <configuration name="ClientConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com._98labs.exercises.sockets.ClientConnection" />
+      <module name="Socket-Client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com._98labs.exercises.sockets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientConnectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Socket-Client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com._98labs.exercises.sockets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com._98labs.exercises.sockets" />
+      <option name="MAIN_CLASS_NAME" value="com._98labs.exercises.sockets.ClientConnectionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Socket-Client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com._98labs.exercises.sockets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com._98labs.exercises.sockets" />
+      <option name="MAIN_CLASS_NAME" value="com._98labs.exercises.sockets.ClientTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClientTest.testClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Socket-Client" />
       <extension name="coverage">
@@ -99,6 +143,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ClientConnectionTest" />
+        <item itemvalue="JUnit.ClientTest" />
+        <item itemvalue="Application.ClientConnection" />
         <item itemvalue="JUnit.ClientTest.testClientInputOutput" />
         <item itemvalue="JUnit.ClientTest.testClient" />
       </list>
