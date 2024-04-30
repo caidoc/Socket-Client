@@ -13,7 +13,7 @@ The Socket-Client Project is a simple Java socket client implementation that con
 
 ## Installation
   1. Clone the repository to your local machine:
-    `git clone https://github.com/caidoc/ExerciseProject1`
+    `git clone https://github.com/caidoc/Socket-Client`
   2. Open the project in Intellij IDEA.
   3. Compile the Java files.
 
