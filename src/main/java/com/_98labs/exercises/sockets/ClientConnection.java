@@ -47,7 +47,7 @@ public class ClientConnection {
         }
     }
     public boolean isValidInput(String userInput) {
-        // Check if userInput is numeric and within a valid range
+        // Check if userInput is numeric
         try {
             int lineNumber = Integer.parseInt(userInput);
             return lineNumber > 0;
