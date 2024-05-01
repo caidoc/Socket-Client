@@ -3,18 +3,24 @@ package com._98labs.exercises.sockets;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
+import java.io.*;
 import java.net.Socket;
+import java.util.Properties;
 import java.util.Scanner;
 public class Client {
     private static final Logger logger = LogManager.getLogger(Client.class);
 
     public static void main(String[] args) {
         String serverAddress = "localhost";
-        int port = 12345;
+        Properties properties;
+        try (InputStream inputStream = Client.class.getClassLoader().getResourceAsStream("config.properties")) {
+            properties = new Properties();
+            properties.load(inputStream);
+        } catch (IOException e) {
+            logger.error("Error loading properties file: {}", e.getMessage());
+            return;
+        }
+        int port = Integer.parseInt(properties.getProperty("port"));
 
         try (Socket socket = new Socket(serverAddress, port);
              PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
